@@ -1,0 +1,42 @@
+#carousel {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	overflow: hidden;
+		
+}
+ul {	
+	padding: 0;
+	margin: 0;
+	width: 2000px;
+}
+li {
+	list-style-type: none;
+	width: 400px;
+	float: left;
+}
+button {
+  position: absolute;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+
+i.fa {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-left {
+  position: absolute;
+  top: 25%;
+  left: 500px;
+}
+
+.btn-right {
+  position: absolute;
+  top: 25%;
+  right: 500px;
+}
